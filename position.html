@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포지션</title>
+
+    <style>
+        *{margin: 0; padding: 0;}
+
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .aqua{
+            background-color: aqua;
+        }
+        
+        .mint{
+            width: 300px;
+            height: 300px;
+            background-color: mediumaquamarine;
+            position: relative;
+            left: 100px;
+        }
+
+        .pink{
+            background-color: pink;
+            position: relative;
+            top: 20px;
+        }
+
+        .lightcoral{
+            background-color: lightcoral;
+            position: relative;
+            top: 20px;
+        }
+
+        .red{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="box aqua"></div>
+
+    <div class="mint">
+        <div class="box pink"></div>
+        <div class="box lightcoral"></div>
+    </div>
+
+    <div class="box red"></div>
+    
+</body>
+</html>
